@@ -49,6 +49,7 @@ function Var_reset()
         count=-1;
     }
 }
+
 function win()
 {
     if(arro[1]==arro[2]&&arro[2]==arro[3]&&arro[3]==1)
@@ -76,14 +77,14 @@ function win()
         Var_reset();
     }
 
-    if(arro[9]==arro[8]&&arro[8]==arro[9]&&arro[3]==1)
+    if(arro[7]==arro[8]&&arro[8]==arro[9]&&arro[9]==1)
     {
         document.getElementById("score").innerHTML="PLAYER  1  WIN O";
         Var_reset();
     }
 
     
-    if(arrx[9]==arrx[8]&&arrx[8]==arrx[9]&&arrx[9]==2)
+    if(arrx[7]==arrx[8]&&arrx[8]==arrx[9]&&arrx[9]==2)
     {
         document.getElementById("score").innerHTML="PLAYER  2  WIN X";
         Var_reset();
@@ -152,6 +153,12 @@ function win()
     {
         document.getElementById("score").innerHTML="PLAYER  2  WIN X";
         Var_reset();
+    }
+
+    if(count==8)
+    {
+        document.getElementById("score").innerHTML="MATCH TIE (PRESS RESET)";
+    
     }
   
 }
