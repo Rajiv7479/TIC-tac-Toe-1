@@ -17,15 +17,26 @@
    }
    .scorecard{
     background-color: burlywood;
-    width: 500px;
-  border: 10px solid rgb(92, 99, 237);
-  padding: 90px;
-  margin-left: 26%;
-  margin-top: 1%;
+    
+    border: 10px solid rgb(92, 99, 237);
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    margin-top: 10px;
+   }
+   #show{
+    background-color:chartreuse;
+    padding: 10px;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-size: larger;
+   font-family:'Times New Roman', Times, serif;
    }
    body{
     background-image: url("https://images4.alphacoders.com/888/8.jpg");
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
    }
    .b1{
     background-color:darkgrey;
