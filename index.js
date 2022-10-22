@@ -196,7 +196,7 @@ function win_showx()
 {
     document.getElementById("show").innerHTML="PLAYER  WIN   X  (PRESS RESET)";
     document.getElementById("show").style.display="block";
-    reset_b();
+    
     
 }
 
@@ -204,6 +204,6 @@ function win_showo()
 {
     document.getElementById("show").innerHTML="PLAYER  WIN   O  (PRESS RESET)";
     document.getElementById("show").style.display="block";
-    reset_b();
+    
     
 }
