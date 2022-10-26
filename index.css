@@ -1,49 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+ 
 .value{
-    text-align: center;
-    padding: 10% 0 0 0;
-   }
-   .para{
-     text-shadow: 2px 5px 5px #2f3542; word-spacing: 10px;
-     margin: 20px 20px 20px 20px;
-     text-justify: center;
-     font-size: 26pt;
-     font-style: bold;
-     text-align: center;
-     color: whitesmoke;
-     background-color: #3F0071;
-   }
-   .input{
+  text-align: center;
+  padding: 10% 0 0 0;
+}
+.para{
+  text-shadow: 2px 5px 5px #2f3542; word-spacing: 10px;
+  margin: 20px 20px 20px 20px;
+  text-justify: center;
+  font-size: 26pt;
+  font-style: bold;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #3F0071;
+  padding: 6px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  font-family: 'Ubuntu', sans-serif;
+}
+.input{
     
-   }
-   .scorecard{
-    background-color:#905E96;
-    border-radius: 10px;
-    /* border: 2px solid rgb(92, 99, 237); */
-    padding: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin-top: 10px;
-   }
-   #show{
-    background-color:chartreuse;
-    padding: 10px;
-    margin-bottom: 20px;
-   margin-left: 20%;
-   margin-right: 20%;
-   font-size: 20px;
-   font-family:'Times New Roman', Times, serif;
-   }
-   body{
-    background-image: url("https://images4.alphacoders.com/888/8.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-   }
-   .b1{
-    background-color:#D58BDD;
-    background-size: cover;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    height: 20px;
-    width: 20px;
-   }
-  
+}
+.scorecard{
+  background-color:#905E96;
+  border-radius: 10px;
+  /* border: 2px solid rgb(92, 99, 237); */
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2px;
+}
+#show{
+  background-color:chartreuse;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+body{
+  background-image: url("https://images4.alphacoders.com/888/8.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.b1{
+  /* background-color:#D58BDD; */
+  background-color: rgba(255,255,255,0.2);
+  border: none;
+  background-size: cover;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
